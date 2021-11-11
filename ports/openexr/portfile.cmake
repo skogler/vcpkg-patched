@@ -13,6 +13,7 @@ vcpkg_from_github(
     0002-fixup_cmake_exports_path.patch
     0003-remove_symlinks.patch
     0004-Fix-pkg-config-lib-suffix-for-cmake-debug-builds.patch  # https://github.com/AcademySoftwareFoundation/openexr/pull/1032
+    0005-Fix-missing-limits-include
 )
 
 vcpkg_configure_cmake(SOURCE_PATH ${SOURCE_PATH}

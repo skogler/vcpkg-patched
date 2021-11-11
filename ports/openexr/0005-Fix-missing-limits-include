@@ -1,0 +1,12 @@
+diff --git a/OpenEXR/IlmImf/ImfTiledMisc.cpp b/OpenEXR/IlmImf/ImfTiledMisc.cpp
+index 8552ada2..bd865a18 100644
+--- a/OpenEXR/IlmImf/ImfTiledMisc.cpp
++++ b/OpenEXR/IlmImf/ImfTiledMisc.cpp
+@@ -45,6 +45,7 @@
+ #include <ImfChannelList.h>
+ #include <ImfTileDescription.h>
+ #include <algorithm>
++#include <limits>
+ 
+ #include "ImfNamespace.h"
+ 
